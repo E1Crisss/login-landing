@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arimo', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  background-color: rgb(114, 103, 203, 0.5);
+  height: 95vh;
+  width: 60vh;
+  margin-top: 1.5em;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px grey;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  margin-left: 5.5em;
+  
+}
+
+h3 {
+  color:white;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contain-form{
+  margin-bottom: 10px;
+  color: white;
+  margin: 0 3em 0 3em;
+    
+}
+
+input {
+  position: relative;
+  width: 280px;
+  height: 28px;
+  margin-bottom: 2em;
+  border-style: none;
+  text-align: center;
+  padding-left: 0.5em;
+  
+}
+
+input::placeholder {
+  text-align: left;
+  padding-left: 2em;
+}
+
+.user-icon::placeholder {
+  background-image: url(./img/user.svg);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.lock-icon::placeholder {
+  background-image: url(./img/lock.svg);
+  background-size: 13px 13px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.check-a {
+  display: inline;
+  width: 18px;
+  height: 18px;
+}
+
+a {
+  display: inline;
+  text-decoration: none;
+  color:darkviolet;
+  font-size: 0.8em;
+  margin-left: 5em;
+  
+}
+
+label {
+    display: inline;
+    color: rgb(48, 48, 48);
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.boton { 
+    display: block;
+    height: 34px;
+    border-style: none;
+    border-radius: 3px;
+    margin: 1em 0 3em 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+}
+
+.a-1 {
+  margin-left: 6em;
+  font-size: 1em;
+}
